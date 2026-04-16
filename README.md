@@ -1,154 +1,81 @@
-# 🏦 Professional Online Banking System (Full Stack Application)
+🏦 Online Banking System (Full Stack Application)
 
-## 🚀 Overview
+A secure and scalable Online Banking System built using the Spring ecosystem.
+This application enables users to manage accounts, perform transactions, and allows admins to monitor and control system operations.
 
-A full-stack online banking application developed using Java/J2EE and Spring ecosystem. The system enables secure user account management, transactions, and administrative operations with a responsive user interface and robust backend architecture.
+🚀 Features
+👤 User Portal
+🔐 Secure login & registration (Spring Security)
+💰 Deposit & withdraw funds
+📊 View account details & balance
+📜 Transaction history tracking
+🏦 Banking Operations
+🔄 Secure fund transfers
+⚡ Real-time transaction updates
+📈 Account balance management
+🛠️ Admin Portal
+👥 Manage users & accounts
+📊 Monitor transactions
+⚙️ Control system operations
+🛠️ Tech Stack
+Backend: Spring Boot, Spring Security, Spring Data JPA
+Frontend (User): Thymeleaf, HTML, CSS, Bootstrap, jQuery
+Frontend (Admin): Angular, TypeScript
+Database: MySQL
+ORM: Hibernate
+Build Tool: Maven
+🔐 Security
+Spring Security authentication & authorization
+Session management
+Protection against common web vulnerabilities (XSS)
+📂 Project Structure
+banking-system/
+│
+├── controller/        # REST Controllers
+├── service/           # Business logic
+├── repository/        # JPA Repositories
+├── model/             # Entity classes
+├── security/          # Security configuration
+├── config/            # App configuration
+└── frontend/          # Thymeleaf + Angular UI
+🔑 Key Functional Modules
+User Management
+Account Management
+Transaction Processing
+Admin Dashboard
+⚙️ Setup Instructions
+1️⃣ Clone Repository
+git clone https://github.com/your-username/banking-system.git
+cd banking-system
+2️⃣ Configure Database
+spring.datasource.url=jdbc:mysql://localhost:3306/banking_db
+spring.datasource.username=root
+spring.datasource.password=your_password
+spring.jpa.hibernate.ddl-auto=update
+3️⃣ Run Application
+mvn spring-boot:run
+🧪 Testing
+Use Postman to test backend APIs
+Access UI via browser for user/admin portals
+🎯 Highlights
+Full-stack architecture with separate user & admin portals
+Secure backend using Spring Security
+Clean layered architecture (Controller → Service → Repository)
+Scalable and modular design
+💡 Future Enhancements
+📱 Mobile app integration
+💳 Payment gateway integration
+📊 Advanced analytics dashboard
+☁️ Microservices architecture
+👨‍💻 Author
 
----
+Lohith Krishna Killamsetty
+Java Full Stack Developer
 
-## 🛠️ Tech Stack
+⭐ Contribution
 
-### 💻 Programming Languages
+Feel free to fork and contribute!
 
-* Java
-* JavaScript
-* SQL
+📜 License
 
----
-
-### ⚙️ Backend
-
-* Spring Boot
-* Spring Security
-* Spring Data JPA
-* Hibernate ORM
-* Maven
-
----
-
-### 🎨 Frontend (User Portal)
-
-* Thymeleaf
-* HTML5
-* CSS3
-* Bootstrap
-* jQuery
-
----
-
-### 🛡️ Admin Portal
-
-* Angular
-* TypeScript
-
----
-
-### 🗄️ Database
-
-* MySQL
-
----
-
-### 🧰 Tools / IDE
-
-* Spring Tool Suite (STS)
-* Eclipse
-* MySQL Workbench
-
----
-
-## 🔐 Security Features
-
-* Implemented **Spring Security** for authentication and authorization
-* Protection against **Cross-Site Scripting (XSS)** attacks
-* Secure session management for user data protection
-
----
-
-## ✨ Key Features
-
-### 👤 User Portal
-
-* User registration and login
-* View account details
-* Deposit and withdraw funds
-* Transaction history
-
----
-
-### 🏦 Banking Operations
-
-* Secure fund transfers
-* Account balance tracking
-* Real-time transaction updates
-
----
-
-### 🛠️ Admin Portal
-
-* Manage users and accounts
-* Monitor transactions
-* Control system operations
-
----
-
-## 🧱 Architecture
-
-Follows a layered architecture:
-
-Controller → Service → Repository → Database
-
----
-
-## 🧪 Database Integration
-
-* Efficient ORM using Hibernate
-* Annotation-based mapping
-* Optimized queries with MySQL
-
----
-
-## 🎯 Highlights
-
-* Full-stack development with separate **user and admin portals**
-* Secure backend using Spring Security
-* Responsive UI for better user experience
-* Scalable and modular architecture
-
----
-
-## ▶️ How to Run
-
-1. Clone the repository
-2. Open in STS / Eclipse
-3. Configure MySQL database
-4. Update database credentials in application properties
-5. Run backend (Spring Boot application)
-6. Run frontend (Thymeleaf / Angular)
-7. Access application in browser
-
----
-
-## 💡 Concepts Implemented
-
-* Full Stack Development
-* MVC Architecture
-* Authentication & Authorization
-* Session Management
-* ORM (Hibernate)
-* Secure Web Development
-
----
-
-## 🚀 Future Enhancements
-
-* Integration with payment gateways
-* Mobile application support
-* Enhanced analytics dashboard
-* Microservices architecture
-
----
-
-## 👨‍💻 Author
-
-Krishna
+This project is open-source and available under the MIT License.
